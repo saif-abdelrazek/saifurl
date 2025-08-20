@@ -37,7 +37,7 @@ function ShortUrl({ url, onEdit, onDelete }) {
       <td className="py-2 px-4 border-b break-all border-blue-100 dark:border-blue-900">
         <div className="flex items-center gap-2">
           <a
-            href={`https://sa.died.pw/${url.short}`}
+            href={`https://${shortDomain}/${url.short}`}
             target="_blank"
             rel="noopener noreferrer"
             className="text-red-600 underline hover:text-blue-700 font-semibold dark:text-red-400 dark:hover:text-blue-200"

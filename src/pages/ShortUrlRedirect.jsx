@@ -1,11 +1,13 @@
 import React, { useEffect } from "react";
 import { useParams } from "react-router-dom";
 
+const shortDomain = import.meta.env.VITE_SHORT_DOMAINS ? import.meta.env.ORT_DOMAINSVITE_SH.split(",")[0] : "sa.died.pw";
+
 const ShortUrlRedirect = () => {
   const { slug = "" } = useParams();
 
   useEffect(() => {
-    window.location.replace(`https://sa.died.pw/${slug}`);
+    window.location.replace(`https://${shortDomain}/${slug}`);
   }, [slug]);
 
   return (
