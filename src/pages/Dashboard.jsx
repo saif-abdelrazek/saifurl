@@ -263,7 +263,7 @@ function Dashboard() {
           Available Short Domains
         </h2>
         <div className="flex flex-col sm:flex-row gap-4 justify-center w-full max-w-md">
-          {shortDomains.map(({ domain }) => (
+          {shortDomains.map((domain) => (
             <button
               className={`transition text-base md:text-lg font-semibold px-4 md:px-6 py-3 rounded-lg shadow border-2 bg-white/90 hover:bg-white text-blue-700 border-blue-200 hover:border-red-400 dark:bg-gray-900 dark:hover:bg-blue-900 dark:text-blue-200 dark:border-blue-800 dark:hover:border-red-700 ${
                 shortDomain === domain
