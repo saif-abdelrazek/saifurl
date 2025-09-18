@@ -321,7 +321,7 @@ const Contact = () => {
           </h3>
           <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-8">
             <a
-              href="https://github.com/saifabdelrazek011"
+              href="https://github.com/saif-abdelrazek"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center space-x-2 hover:scale-105 transition-transform text-blue-600 hover:text-blue-700 dark:text-blue-300 dark:hover:text-blue-400"
