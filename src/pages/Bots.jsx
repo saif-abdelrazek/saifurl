@@ -52,20 +52,6 @@ const Bots = () => {
             </p>
           </div>
 
-          {/* Service Status */}
-          <div className="text-center mb-8">
-            <a href="https://status.saifabdelrazek.com" target="_blank" rel="noopener noreferrer">
-              <img
-                src={theme === "dark"
-                  ? "https://uptime.saifabdelrazek.com/api/badge/7/status?upColor=%2360a5fa&downColor=%23f87171&pendingColor=%23fbbf24&maintenanceColor=%234ade80&style=for-the-badge"
-                  : "https://uptime.saifabdelrazek.com/api/badge/7/status?upColor=%233b82f6&downColor=%23ef4444&pendingColor=%23f59e42&maintenanceColor=%2322c55e&style=for-the-badge"
-                }
-                alt="Service Status"
-                className="h-6 mx-auto animate-pulse transition-all duration-500 ease-in-out transform hover:scale-105"
-              />
-            </a>
-          </div>
-
           {/* Bots Grid */}
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
             {/* Telegram Bot Card - Now Working */}
@@ -370,16 +356,7 @@ const Bots = () => {
             </div>
             <p className="text-green-700 dark:text-green-200">
               🎉 Our Telegram bot is now active and ready to use! Discord and
-              Slack bots are still in development. Follow our{" "}
-              <a
-                href="https://status.saifabdelrazek.com"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="underline hover:no-underline font-semibold"
-              >
-                status page
-              </a>{" "}
-              for updates on other platforms.
+              Slack bots are still in development. Follow our for updates on other platforms.
             </p>
           </div>
         </div>

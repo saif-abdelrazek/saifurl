@@ -98,21 +98,7 @@ function Signin() {
         </h2>
 
         <div className="text-center mb-6">
-          <a
-            href="https://status.saifabdelrazek.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src={
-                theme === "dark"
-                  ? "https://uptime.saifabdelrazek.com/api/badge/7/status?upColor=%2360a5fa&downColor=%23f87171&pendingColor=%23fbbf24&maintenanceColor=%234ade80&style=for-the-badge"
-                  : "https://uptime.saifabdelrazek.com/api/badge/7/status?upColor=%233b82f6&downColor=%23ef4444&pendingColor=%23f59e42&maintenanceColor=%2322c55e&style=for-the-badge"
-              }
-              alt="Service Status"
-              className="h-6 mx-auto animate-pulse transition-all duration-500 ease-in-out transform hover:scale-105"
-            />
-          </a>
+
         </div>
 
         {errorMessage && (
