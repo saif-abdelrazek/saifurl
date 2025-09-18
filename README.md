@@ -14,7 +14,6 @@ A modern, fullstack URL shortener **frontend** built with React, featuring user 
 - 🛡️ **Email verification** for secure accounts
 - 🛠️ **Profile management** (update info, change password)
 - 🌐 **HashRouter** for static hosting compatibility
-- 🏷️ **Status badge** for service health
 
 ---
 
@@ -74,7 +73,6 @@ src/
 - **Switch themes** using the toggle in the header or profile.
 - **Manage your profile** and change your password.
 - **Reset your password** via the "Forget Password" page.
-- **Check service status** via the badge in the header/footer.
 
 ---
 
@@ -97,7 +95,6 @@ This frontend connects to the [SaifAPI](https://github.com/saifabdelrazek011/sai
 ## Credits
 
 - Built by [Saif Abdelrazek](https://saifabdelrazek.com)
-- Status badge powered by [Uptime Kuma](https://status.saifabdelrazek.com)
 - API backend: [saifabdelrazek011/saifapi](https://github.com/saifabdelrazek011/saifapi)
 
 ---
