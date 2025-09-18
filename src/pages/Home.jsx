@@ -61,14 +61,14 @@ const Home = () => {
         </Link>
 
         <a
-          href="https://github.com/saifabdelrazek011/saifurl"
+          href="https://github.com/saif-abdelrazek/saifurl"
           className="mt-6 transition text-gray-600 hover:text-blue-600 dark:text-gray-400 dark:hover:text-blue-400"
         >
           Star the project on GitHub
         </a>
         <div className="mt-8 text-gray-600 dark:text-gray-400">
           <p>
-            Made with  by <a href="https://github.com/saifabdelrazek011" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" className="hover:underline text-blue-600 dark:text-blue-400">Saif Abdelrazek</a>
+            Made with  by <a href="https://github.com/saif-abdelrazek" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" className="hover:underline text-blue-600 dark:text-blue-400">Saif Abdelrazek</a>
           </p>
         </div>
       </main>

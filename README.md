@@ -22,7 +22,7 @@ A modern, fullstack URL shortener **frontend** built with React, featuring user 
 ### 1. **Clone the repository**
 
 ```sh
-git clone https://github.com/saifabdelrazek011/saifurl.git
+git clone https://github.com/saif-abdelrazek/saifurl.git
 cd saifurl
 ```
 
@@ -78,9 +78,9 @@ src/
 
 ## API
 
-This frontend connects to the [SaifAPI](https://github.com/saifabdelrazek011/saifapi) backend service.
+This frontend connects to the [SaifAPI](https://github.com/saif-abdelrazek/saifapi) backend service.
 
-- **API repository:** [https://github.com/saifabdelrazek011/saifapi](https://github.com/saifabdelrazek011/saifapi)
+- **API repository:** [https://github.com/saif-abdelrazek/saifapi](https://github.com/saif-abdelrazek/saifapi)
 - **Default API URL:** `https://api.saifabdelrazek.com/v1`
 
 ---
@@ -95,6 +95,6 @@ This frontend connects to the [SaifAPI](https://github.com/saifabdelrazek011/sai
 ## Credits
 
 - Built by [Saif Abdelrazek](https://saifabdelrazek.com)
-- API backend: [saifabdelrazek011/saifapi](https://github.com/saifabdelrazek011/saifapi)
+- API backend: [saif-abdelrazek/saifapi](https://github.com/saif-abdelrazek/saifapi)
 
 ---

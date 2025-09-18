@@ -268,7 +268,7 @@ function Dashboard() {
           </span>
           <span className="hidden md:inline-block mx-2">|</span>
           <a
-            href="https://github.com/saifabdelrazek011"
+            href="https://github.com/saif-abdelrazek"
             target="_blank"
             rel="noopener noreferrer"
             className={`hover:underline font-semibold flex items-center gap-1 ${
